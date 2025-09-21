@@ -1,0 +1,2 @@
+# Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python
+This is a work project to show the outline &amp; depth of my work. The data used/shown here are dummy data to protect the privacy &amp; integrity of the company. The actual project is used by the top management to monitor the impact of a new MT outlets opening on the GT's sales of that same route and I help them to make decisions according to that.
