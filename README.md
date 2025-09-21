@@ -120,7 +120,7 @@ RETURN
 
 ### 1. GT Growth% by Outlet Status (Metro vs Non-Metro)
 
-![Image Alt](https://github.com/RAAD07/Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python/blob/bf806e8a973169f3f0be6c23c238a34f06254ea9/1.%20GT-MT%20Cannibalization.png)
+![Image Alt](https://github.com/RAAD07/Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python/blob/8d42dc10dbbfbc1a1f8efdc47a0a89a58cda30d2/3.%20GT-MT%20Cannibalization.png)
 
 Visualized with boxplots (Seaborn).
 
@@ -137,7 +137,7 @@ print(t_stat, p_val)
 
 ### 2. GT Growth% by Division Status (Divisional vs Non-Divisional)
 
-![Image Alt](https://github.com/RAAD07/Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python/blob/bf806e8a973169f3f0be6c23c238a34f06254ea9/3.%20GT-MT%20Cannibalization.png)
+![Image Alt](https://github.com/RAAD07/Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python/blob/8d42dc10dbbfbc1a1f8efdc47a0a89a58cda30d2/4.%20GT-MT%20Cannibalization.png)
 
 1. Created new column Division Status.
 
@@ -148,7 +148,7 @@ T-test between Divisional vs Non-Divisional.
 
 ### 3. Scatterplot Analysis
 
-![Image Alt](https://github.com/RAAD07/Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python/blob/bf806e8a973169f3f0be6c23c238a34f06254ea9/6.%20GT-MT%20Cannibalization.png)
+![Image Alt](https://github.com/RAAD07/Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python/blob/8d42dc10dbbfbc1a1f8efdc47a0a89a58cda30d2/5.%20GT-MT%20Cannibalization.png)
 Memo Count Growth% vs GT Growth% for Metro & Non-Metro (without outliers).
 
 Regression trendline added (sns.regplot).
@@ -157,6 +157,6 @@ Regression trendline added (sns.regplot).
 
 ### 3. Dhaka vs The Rest
 
-![Image Alt](https://github.com/RAAD07/Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python/blob/bf806e8a973169f3f0be6c23c238a34f06254ea9/6.%20GT-MT%20Cannibalization.png)
+![Image Alt](https://github.com/RAAD07/Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python/blob/8d42dc10dbbfbc1a1f8efdc47a0a89a58cda30d2/6.%20GT-MT%20Cannibalization.png)
 
 
