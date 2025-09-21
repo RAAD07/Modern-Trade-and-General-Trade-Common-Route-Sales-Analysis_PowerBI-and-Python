@@ -2,7 +2,7 @@
 ### This is a work project to show the outline &amp; depth of my work. The data used/shown here are dummy data to protect the privacy &amp; integrity of the company. The actual project is used by the top management to monitor the impact of a new MT outlets opening on the GT's sales of that same route and I help them to make decisions according to that.
 
 # 📈 Impact of MT Outlet Openings on GT Sales
-## This project was conducted for a consumer goods company with a dual sales model: General Trade (GT) via traditional outlets and Modern Trade (MT) via large-format retail stores. With ~36M sales records across 46K outlets, management wanted to assess whether opening new MT outlets was cannibalizing GT sales, especially in metro/divisional regions.
+This project was conducted for a consumer goods company with a dual sales model: General Trade (GT) via traditional outlets and Modern Trade (MT) via large-format retail stores. With ~36M sales records across 46K outlets, management wanted to assess whether opening new MT outlets was cannibalizing GT sales, especially in metro/divisional regions.
 
 The analysis combined Power BI dashboards and Python statistical tests to measure the sales impact of MT openings on GT performance.
 
@@ -77,12 +77,10 @@ The dashboard became a central sales intelligence hub, delivering:
 
 ## Detailed Page-by-Page Explanation:
 
-
-### 📊 Page 1: Outlet Productivity Report
-
-![Image Alt](https://github.com/RAAD07/NiveaSecondarySales_PowerBIProject/blob/191f51242140244e6dc199727910ec68d364cd18/Page1_Nivea%20Outlet%20Productivity%20Report%202024%20-%202025.png)
-
 ### 📊 PowerBI Report: GT–MT Cannibalization Dashboard
+
+![Image Alt](https://github.com/RAAD07/Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python/blob/bf806e8a973169f3f0be6c23c238a34f06254ea9/1.%20GT-MT%20Cannibalization.png)
+![Image Alt](https://github.com/RAAD07/Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python/blob/bf806e8a973169f3f0be6c23c238a34f06254ea9/2.%20GT-MT%20Cannibalization.png)
 
 Filters: District, Outlet Status (Metro/Non-Metro).
 
@@ -122,6 +120,8 @@ RETURN
 
 ### 1. GT Growth% by Outlet Status (Metro vs Non-Metro)
 
+![Image Alt](https://github.com/RAAD07/Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python/blob/bf806e8a973169f3f0be6c23c238a34f06254ea9/1.%20GT-MT%20Cannibalization.png)
+
 Visualized with boxplots (Seaborn).
 
 T-test on GT Growth% between Metro vs Non-Metro.
@@ -137,27 +137,26 @@ print(t_stat, p_val)
 
 ### 2. GT Growth% by Division Status (Divisional vs Non-Divisional)
 
-Created new column Division Status.
+![Image Alt](https://github.com/RAAD07/Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python/blob/bf806e8a973169f3f0be6c23c238a34f06254ea9/3.%20GT-MT%20Cannibalization.png)
 
-Outlier removal via IQR filtering.
+1. Created new column Division Status.
+
+2. Outlier removal via IQR filtering.
 
 T-test between Divisional vs Non-Divisional.
 ➡️ Result: Divisional avg GT growth ~ -25%, p = 0.038 → statistically significant.
 
 ### 3. Scatterplot Analysis
 
+![Image Alt](https://github.com/RAAD07/Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python/blob/bf806e8a973169f3f0be6c23c238a34f06254ea9/6.%20GT-MT%20Cannibalization.png)
 Memo Count Growth% vs GT Growth% for Metro & Non-Metro (without outliers).
 
 Regression trendline added (sns.regplot).
 ➡️ Finding: Memo growth drove positive GT growth in Non-Metro, but in Metro GT sales still declined despite memo growth.
 
 
+### 3. Dhaka vs The Rest
 
-![Image Alt](https://github.com/RAAD07/NiveaSecondarySales_PowerBIProject/blob/40d20f10edf074f4130acc713b618176753d767f/Page2_Nivea%20Sales%20Value%20%26%20QTY.png)
+![Image Alt](https://github.com/RAAD07/Modern-Trade-and-General-Trade-Common-Route-Sales-Analysis_PowerBI-and-Python/blob/bf806e8a973169f3f0be6c23c238a34f06254ea9/6.%20GT-MT%20Cannibalization.png)
 
-Visuals:
-
-Donut – SKU category-wise % sales (value).
-
-Line – SKU category-wise monthly sales trend (quantity).
 
