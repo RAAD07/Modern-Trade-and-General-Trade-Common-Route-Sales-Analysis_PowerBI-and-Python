@@ -8,13 +8,13 @@ The analysis combined Power BI dashboards and Python statistical tests to measur
 
 ## Insights & Recommendations provided on:
 
-1. Outlet Productivity: Tracking billed vs non-billed outlets, productive vs non-productive trends.
+📌 Metro outlets: GT sales dropped sharply (~ -23%) after MT openings.
 
-2. Sales Trends: Monitoring SKU category sales (value & quantity), YOY growth, and seasonal peaks.
+📌 Divisional districts: Similar decline (~ -25%) in GT sales, whereas non-divisional areas remained stable or positive.
 
-3. SO Performance: Evaluating coverage, LPC, strike rate, visit%, and delivery%.
+📌 Memo behavior: Memo growth was not sufficient in metros to offset GT losses, but in non-metros it ensured growth.
 
-4. Behavioral Insights: Monitoring order frequency, repeat purchase, and location accuracy to detect inefficiencies.
+📌 Dhaka: Most negatively impacted, with GT sales decline of -20% to -40%.
 
 ## Data Structure & Model
 
